@@ -1,0 +1,27 @@
+
+void main() {
+  // Integer data type (int)
+  int age = 30;
+  print('Age: $age'); // Output: Age: 30
+
+  // Double data type (double)
+  double height = 6.11;
+  print('Height: $height'); // Output: Height: 6.11
+
+  // String data type (String)
+  String name = 'Nicholas Ngeno';
+  print('Name: $name'); // Output: Name: Nicholas Ngeno
+
+  // List data type (List)
+  List<int> numbers = [1, 2, 3, 4, 5];
+  print('Numbers: $numbers'); // Output: Numbers: [1, 2, 3, 4, 5]
+
+  // Map data type (Map)
+  Map<String, dynamic> person = {
+    'name': 'John Smith',
+    'age': 25,
+    'height': 6.6,
+    'isStudent': true
+  };
+  print('Person: $person'); // Output: Person: {name: John Smith, age: 25, height: 6.6, isStudent: true}
+}
